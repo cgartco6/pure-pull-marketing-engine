@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth behavior for scrolling down to specifications on mobile screens */
+html {
+  scroll-behavior: smooth;
+}
