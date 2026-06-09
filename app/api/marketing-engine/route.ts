@@ -52,8 +52,8 @@ export async function POST(req: Request) {
         "X-Title": "Sovereign Pull Engine Matrix"
       },
       body: JSON.stringify({
-        model: "meta-llama/llama-3.3-70b-instruct:free", // Utilizing completely free tier infrastructure
-        messages: [
+        model: "mistralai/mistral-7b-instruct:free", Or // Utilizing completely free tier infrastructure
+       messages: [
           { role: "system", content: systemPrompt },
           { role: "user", content: `Product vision: ${productVision}. Pricing: R${targetPriceZar || 250}` }
         ],
